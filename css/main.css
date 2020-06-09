@@ -14,9 +14,9 @@ body {
 
 .wave {
   position: fixed;
-  bottom: 0;
+  top: -165px;
   left: 0;
-  height: 100%;
+  width: 100%;
   z-index: -1;
 }
 
@@ -29,9 +29,10 @@ body {
   right: 0;
 }
 
-.bg-layout {
+
+/* .bg-layout {
   height: calc(100vh - 100px);
-}
+} */
 
 .my-auto {
   margin-top: auto;
@@ -44,6 +45,45 @@ body {
   -moz-box-shadow: 1px 1px 5px 0px rgba(227, 227, 227, 0.3);
   box-shadow: 1px 1px 5px 0px rgba(44, 40, 40, 0.3);
 }
+
+
+/*  -------------------------------------------- */
+
+.step-1 .card {
+  min-height: 380px;
+}
+
+.card-img,
+.card-img-top {
+  /* height: 200px; */
+  overflow: hidden;
+}
+
+
+/*  -------------------------------------------- */
+
+.testimonial-card .card-up {
+  height: 120px;
+  overflow: hidden;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.testimonial-card .avatar {
+  width: 160px;
+  margin-top: -60px;
+  overflow: hidden;
+  border: 5px solid #fff;
+  border-radius: 50%;
+}
+
+
+/* .rounded-circle {
+  border-radius: 50% !important;
+} */
+
+
+/*  -------------------------------------------- */
 
 @media (min-width: 1100px) {
   .wave {
