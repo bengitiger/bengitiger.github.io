@@ -22,5 +22,8 @@ body {
 }
 
 .bengi-logo {
-  border: 1px solid #eee;
+  border: 1px solid rgb(63, 201, 255);
+  -webkit-box-shadow: 1px 1px 5px 0px rgba(227, 227, 227, 0.3);
+  -moz-box-shadow: 1px 1px 5px 0px rgba(227, 227, 227, 0.3);
+  box-shadow: 1px 1px 5px 0px rgba(227, 227, 227, 0.3);
 }
