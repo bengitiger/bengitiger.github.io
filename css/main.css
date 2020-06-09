@@ -12,8 +12,25 @@ body {
   -o-background-size: cover;
 }
 
+.wave {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  z-index: -1;
+}
+
+.wave-left {
+  opacity: 0.2;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 .bg-layout {
-  height: calc(100vh - 200px);
+  height: calc(100vh - 100px);
 }
 
 .my-auto {
@@ -25,5 +42,5 @@ body {
   border: 1px solid rgb(63, 201, 255);
   -webkit-box-shadow: 1px 1px 5px 0px rgba(227, 227, 227, 0.3);
   -moz-box-shadow: 1px 1px 5px 0px rgba(227, 227, 227, 0.3);
-  box-shadow: 1px 1px 5px 0px rgba(227, 227, 227, 0.3);
+  box-shadow: 1px 1px 5px 0px rgba(44, 40, 40, 0.3);
 }
