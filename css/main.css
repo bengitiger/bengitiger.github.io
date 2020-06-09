@@ -45,7 +45,7 @@ body {
   box-shadow: 1px 1px 5px 0px rgba(44, 40, 40, 0.3);
 }
 
-@media (min-width: 1190px) {
+@media (min-width: 1900px) {
   .wave {
     width: 100%;
   }
