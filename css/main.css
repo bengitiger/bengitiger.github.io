@@ -1,5 +1,24 @@
+html,
+body {
+  height: 100vh;
+}
+
 body {
   font-family: 'PT Sans Narrow', sans-serif;
+  background: url('/images/back-water.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.bg-layout {
+  height: calc(100vh - 200px);
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .bengi-logo {
